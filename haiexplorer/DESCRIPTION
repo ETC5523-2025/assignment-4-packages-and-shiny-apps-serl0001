@@ -1,0 +1,12 @@
+Package: haiexplorer
+Title: Interactive HAI Burden Explorer
+Description: Data and tools to explore healthcare-associated infections (HAIs)
+  using cases, deaths and DALYs. Includes a Shiny app to interactively explore
+  the dataset.
+Authors@R: 
+    person("Sandhya", "Erland Chandrasekar", email = "serl0001@student.monash.edu", role = c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+
