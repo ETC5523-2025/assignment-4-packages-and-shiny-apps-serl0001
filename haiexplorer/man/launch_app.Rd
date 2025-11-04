@@ -2,10 +2,10 @@
 % Please edit documentation in R/launch_app.R
 \name{launch_app}
 \alias{launch_app}
-\title{Launching the Shiny app}
+\title{Launch the Shiny app}
 \usage{
 launch_app()
 }
 \description{
-Opens the interactive explorer shipped with the package.
+Launch the Shiny app
 }
