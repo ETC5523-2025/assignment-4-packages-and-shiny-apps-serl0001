@@ -1,0 +1,45 @@
+# _pkgdown.yml
+template:
+  bootstrap: 5
+  bootswatch: flatly
+  bslib:
+    primary: "#9BBCE0"
+    secondary: "#F7B7C3"
+
+url: https://ETC5523-2025.github.io/assignment-4-packages-and-shiny-apps-serl0001/
+destination: docs
+
+home:
+  title: "haiexplorer: Interactive HAI Burden Explorer"
+  description: >
+    Explore Germany PPS 2011 HAI burden data (Cases, Deaths, DALYs and
+    YLL/YLD) with a polished Shiny app and documented functions.
+
+navbar:
+  structure:
+    left:  [reference, articles]
+    right: [github]
+  components:
+    reference:
+      text: Reference
+      href: reference/index.html
+    articles:
+      text: Articles
+      menu:
+        - text: Getting started
+          href: articles/getting-started.html
+    github:
+      icon: fa-github
+      href: https://github.com/ETC5523-2025/assignment-4-packages-and-shiny-apps-serl0001/
+
+authors:
+  Sandhya Erland Chandrasekar:
+    href: mailto:serl0001@student.monash.edu
+
+reference:
+  - title: "App launcher"
+    contents:
+      - launch_app
+  - title: "Datasets"
+    contents:
+      - hai_germany_2011
