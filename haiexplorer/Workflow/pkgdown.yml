@@ -16,9 +16,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # <-- ensure full history for gh-pages push
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true   # <-- faster/more reliable package installs
 
       - name: Set up pandoc
         uses: r-lib/actions/setup-pandoc@v2
