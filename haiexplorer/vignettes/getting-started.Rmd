@@ -1,14 +1,19 @@
 ---
-title: "Getting started"
+title: "Getting started with haiexplorer"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Getting started}
+  %\VignetteIndexEntry{Getting started with haiexplorer}
   %\VignetteEngine{knitr::rmarkdown}
-  \usepackage[utf8]{inputenc}
+  %\VignetteEncoding{UTF-8}
 ---
 
 This package ships a small example dataset `hai_germany_2011` with five
 infection types (HAP, UTI, BSI, SSI, CDI) and three metrics: cases, deaths, DALYs.
+```{r}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+library(haiexplorer) # IMPORTANT so data/function exist when knitting
+```
+
 
 ```{r}
 library(ggplot2)

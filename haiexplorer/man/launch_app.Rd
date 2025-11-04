@@ -2,10 +2,16 @@
 % Please edit documentation in R/launch_app.R
 \name{launch_app}
 \alias{launch_app}
-\title{Launch the Shiny app}
+\title{Launch the HAI Explorer app}
 \usage{
 launch_app()
 }
+\value{
+Invisibly, the shiny app object
+}
 \description{
-Launch the Shiny app
+Launch the HAI Explorer app
+}
+\examples{
+\dontrun{ haiexplorer::launch_app() }
 }

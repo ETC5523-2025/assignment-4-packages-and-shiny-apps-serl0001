@@ -1,4 +1,3 @@
-# _pkgdown.yml
 template:
   bootstrap: 5
   bootswatch: flatly
@@ -6,7 +5,7 @@ template:
     primary: "#9BBCE0"
     secondary: "#F7B7C3"
 
-destination: docs
+destination: ../docs
 url: https://ETC5523-2025.github.io/assignment-4-packages-and-shiny-apps-serl0001/
 
 home:
@@ -43,3 +42,4 @@ reference:
   - title: "Datasets"
     contents:
       - hai_germany_2011
+
