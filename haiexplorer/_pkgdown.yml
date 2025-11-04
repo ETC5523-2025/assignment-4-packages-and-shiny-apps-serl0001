@@ -6,7 +6,7 @@ template:
     secondary: "#F7B7C3"
 
 destination: ../docs
-url: https://ETC5523-2025.github.io/assignment-4-packages-and-shiny-apps-serl0001/
+url: https://etc5523-2025.github.io/assignment-4-packages-and-shiny-apps-serl0001/
 
 home:
   title: "haiexplorer: Interactive HAI Burden Explorer"
