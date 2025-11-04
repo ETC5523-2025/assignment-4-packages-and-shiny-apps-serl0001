@@ -1,0 +1,26 @@
+---
+title: "Getting started"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting started}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+This package ships a small example dataset `hai_germany_2011` with five
+infection types (HAP, UTI, BSI, SSI, CDI) and three metrics: cases, deaths, DALYs.
+
+```{r}
+library(ggplot2)
+library(haiexplorer)
+ggplot(hai_germany_2011, aes(type, dalys)) + geom_col()
+
+```
+```{r}
+library(ggplot2)
+ggplot(hai_germany_2011, aes(type, dalys)) +
+geom_col() +
+coord_flip() +
+labs(x = "HAI type", y = "DALYs")
+```
+

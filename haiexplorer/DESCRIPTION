@@ -1,12 +1,27 @@
 Package: haiexplorer
 Title: Interactive HAI Burden Explorer
-Description: Data and tools to explore healthcare-associated infections (HAIs)
-  using cases, deaths and DALYs. Includes a Shiny app to interactively explore
-  the dataset.
+Version: 0.0.1
 Authors@R: 
     person("Sandhya", "Erland Chandrasekar", email = "serl0001@student.monash.edu", role = c("aut", "cre"))
+Description: Data and tools to explore healthcare-associated infections (HAIs)
+    using cases, deaths and DALYs. Includes a Shiny app to interactively explore
+    the dataset.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-
+Depends: R (>= 4.1)
+Imports:
+    shiny,
+    utils
+Suggests:
+    ggplot2,
+    tibble,
+    dplyr,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/ETC5523-2025/assignment-4-packages-and-shiny-apps-serl0001,
+    https://ETC5523-2025.github.io/assignment-4-packages-and-shiny-apps-serl0001/
+BugReports: https://github.com/ETC5523-2025/assignment-4-packages-and-shiny-apps-serl0001/issues
+LazyData: true

@@ -1,3 +1,7 @@
 ^haiexplorer\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
+^LICENSE\.md$
+^data-raw$
+^doc$
+^Meta$
